@@ -22,7 +22,7 @@ Javascript *asynchronous* upload in two steps:
         'done': function(data) {
             alert('upload finished!');
         },
-        pollingInterval': 500
+        'pollingInterval': 500
     });
 ```
 
