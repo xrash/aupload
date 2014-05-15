@@ -35,3 +35,12 @@ Javascript *asynchronous* upload in two steps:
 ```html
     <div id="upload-button" data-input-name="rofl" data-params='{"clown": "bozo"}'></div>
 ```
+# Callbacks
+
+The **start** option is called right before sending the request to the server.
+The **done** option is called right after the server sends it response, and it receives the server response.
+
+# How it works
+
+The plugin creates a hidden iframe and a hidden form inside your button. The form sends the file through the iframe, and because of that, it doesn't reload the page.
+There is also a listener using *window.setInterval* that keeps listening to the iframe to check if it was loaded with the new content. The polling interval in milliseconds can be set through the **pollingInterval** option.
