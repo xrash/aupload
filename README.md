@@ -30,7 +30,7 @@ Javascript *asynchronous* upload in two steps:
 
 # Inline options
 
-asyncUpload will search through your button data-* attributes and if it finds something that looks like an option, it will be used. Example:
+**asyncUpload** will search through your button **data-*** attributes and if it finds something that looks like an option, it will be used. Example:
 
 ```html
     <div id="upload-button" data-input-name="rofl" data-params='{"clown": "bozo"}'></div>
