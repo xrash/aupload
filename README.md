@@ -2,13 +2,13 @@
 
 Javascript *asynchronous* upload in two steps:
 
-1. Create a button using a div element:
+- Create a button using a div element:
 
 ```html
     <div id="upload-button"></div>
 ```
 
-2. Call the asyncUpload method on it:
+- Call the asyncUpload method on it:
 
 ```javascript
     $('#upload-button').asyncUpload({
