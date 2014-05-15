@@ -1,4 +1,4 @@
-# aUpload
+# asyncUpload
 
 Javascript *asynchronous* upload in two steps:
 
