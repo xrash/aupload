@@ -98,7 +98,6 @@
             var lastData = iframe.data('lastData');
 
             if (data && (data != lastData)) {
-                console.log(element, data);
                 done.call(element, data);
                 iframe.data('lastData', data);
             }
